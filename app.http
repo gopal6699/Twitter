@@ -1,0 +1,22 @@
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+  "username": "gopal99878",
+  "password": "gk129",
+  "name": "gopal",
+  "gender": "male"
+}
+
+###
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+  "username": "gopal99",
+  "password": "gk1256"
+}
+
+###
+GET http://localhost:3000/user/tweets/feed/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImdvcGFsOTkiLCJpYXQiOjE2ODkxNDY5MDB9.hIrOZRIXyZXgjXc7F_cKF2zX0Js-3qfwDljtdNlpAw0
